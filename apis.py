@@ -1,6 +1,5 @@
-from flask import Flask, request
-from flask_jsonpify import jsonify
-from flask_restful import Resource, Api
+from flask import Flask
+from flask_restful import Api
 from get_user_rank import GetUserRank
 from update_user_score import UpdateUserScore
 from get_leaderboard import GetLeaderBoard
